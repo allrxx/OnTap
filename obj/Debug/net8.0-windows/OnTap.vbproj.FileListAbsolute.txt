@@ -1,0 +1,10 @@
+C:\Users\alexj\source\repos\OnTap\OnTap\obj\Debug\net8.0-windows\OnTap.vbproj.AssemblyReference.cache
+C:\Users\alexj\source\repos\OnTap\OnTap\obj\Debug\net8.0-windows\Avalonia\Resources.Inputs.cache
+C:\Users\alexj\source\repos\OnTap\OnTap\obj\Debug\net8.0-windows\OnTap.AdminDashboard.resources
+C:\Users\alexj\source\repos\OnTap\OnTap\obj\Debug\net8.0-windows\OnTap.Form1.resources
+C:\Users\alexj\source\repos\OnTap\OnTap\obj\Debug\net8.0-windows\OnTap.Resources.resources
+C:\Users\alexj\source\repos\OnTap\OnTap\obj\Debug\net8.0-windows\OnTap.vbproj.GenerateResource.cache
+C:\Users\alexj\source\repos\OnTap\OnTap\obj\Debug\net8.0-windows\OnTap.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexj\source\repos\OnTap\OnTap\obj\Debug\net8.0-windows\OnTap.AssemblyInfoInputs.cache
+C:\Users\alexj\source\repos\OnTap\OnTap\obj\Debug\net8.0-windows\OnTap.AssemblyInfo.vb
+C:\Users\alexj\source\repos\OnTap\OnTap\obj\Debug\net8.0-windows\OnTap.vbproj.CoreCompileInputs.cache

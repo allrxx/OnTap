@@ -1,0 +1,175 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Avalonia/11.0.7": {
+        "dependencies": {
+          "Avalonia.BuildServices": "0.0.29",
+          "Avalonia.Remote.Protocol": "11.0.7",
+          "MicroCom.Runtime": "0.11.0",
+          "System.ComponentModel.Annotations": "4.5.0"
+        },
+        "runtime": {
+          "lib/net6.0/Avalonia.Base.dll": {
+            "assemblyVersion": "11.0.7.0",
+            "fileVersion": "11.0.7.0"
+          },
+          "lib/net6.0/Avalonia.Controls.dll": {
+            "assemblyVersion": "11.0.7.0",
+            "fileVersion": "11.0.7.0"
+          },
+          "lib/net6.0/Avalonia.DesignerSupport.dll": {
+            "assemblyVersion": "0.7.0.0",
+            "fileVersion": "0.7.0.0"
+          },
+          "lib/net6.0/Avalonia.Dialogs.dll": {
+            "assemblyVersion": "11.0.7.0",
+            "fileVersion": "11.0.7.0"
+          },
+          "lib/net6.0/Avalonia.Markup.Xaml.dll": {
+            "assemblyVersion": "11.0.7.0",
+            "fileVersion": "11.0.7.0"
+          },
+          "lib/net6.0/Avalonia.Markup.dll": {
+            "assemblyVersion": "11.0.7.0",
+            "fileVersion": "11.0.7.0"
+          },
+          "lib/net6.0/Avalonia.Metal.dll": {
+            "assemblyVersion": "11.0.7.0",
+            "fileVersion": "11.0.7.0"
+          },
+          "lib/net6.0/Avalonia.MicroCom.dll": {
+            "assemblyVersion": "11.0.7.0",
+            "fileVersion": "11.0.7.0"
+          },
+          "lib/net6.0/Avalonia.OpenGL.dll": {
+            "assemblyVersion": "11.0.7.0",
+            "fileVersion": "11.0.7.0"
+          },
+          "lib/net6.0/Avalonia.dll": {
+            "assemblyVersion": "11.0.7.0",
+            "fileVersion": "11.0.7.0"
+          }
+        }
+      },
+      "Avalonia.BuildServices/0.0.29": {},
+      "Avalonia.Remote.Protocol/11.0.7": {
+        "runtime": {
+          "lib/net6.0/Avalonia.Remote.Protocol.dll": {
+            "assemblyVersion": "11.0.7.0",
+            "fileVersion": "11.0.7.0"
+          }
+        }
+      },
+      "Guna.UI2.WinForms/2.0.4.6": {
+        "dependencies": {
+          "System.Management": "7.0.0"
+        },
+        "runtime": {
+          "lib/net7.0-windows7.0/Guna.UI2.dll": {
+            "assemblyVersion": "2.0.4.6",
+            "fileVersion": "2.0.4.6"
+          }
+        }
+      },
+      "MicroCom.Runtime/0.11.0": {
+        "runtime": {
+          "lib/net5.0/MicroCom.Runtime.dll": {
+            "assemblyVersion": "0.11.0.0",
+            "fileVersion": "0.11.0.0"
+          }
+        }
+      },
+      "System.CodeDom/7.0.0": {
+        "runtime": {
+          "lib/net7.0/System.CodeDom.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "System.ComponentModel.Annotations/4.5.0": {},
+      "System.Management/7.0.0": {
+        "dependencies": {
+          "System.CodeDom": "7.0.0"
+        },
+        "runtime": {
+          "lib/net7.0/System.Management.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net7.0/System.Management.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Avalonia/11.0.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TQYVRzZgv7lWlJzLfIQgAEQpUzhNJr2Bhu609H858FdpzR1x5v1M2N25VxcmbqsvSUKfrCgJRAmfknzPrYG6PQ==",
+      "path": "avalonia/11.0.7",
+      "hashPath": "avalonia.11.0.7.nupkg.sha512"
+    },
+    "Avalonia.BuildServices/0.0.29": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-U4eJLQdoDNHXtEba7MZUCwrBErBTxFp6sUewXBOdAhU0Kwzwaa/EKFcYm8kpcysjzKtfB4S0S9n0uxKZFz/ikw==",
+      "path": "avalonia.buildservices/0.0.29",
+      "hashPath": "avalonia.buildservices.0.0.29.nupkg.sha512"
+    },
+    "Avalonia.Remote.Protocol/11.0.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eKfTDTgLoz8LFdL7pwCPrHVbqFqZ6i7JJn3I1gqjLueXEwLTrgG10ui3znUbkJNkk/9cz77ORxbCBQrwn7n4wA==",
+      "path": "avalonia.remote.protocol/11.0.7",
+      "hashPath": "avalonia.remote.protocol.11.0.7.nupkg.sha512"
+    },
+    "Guna.UI2.WinForms/2.0.4.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NYzSJp7e47Cz3NgGCHvzadash8ycmxxUnpLg4Rr/MSYG9WDw0HOoTI4SkbDW+HbACrf6tsWYCuzWkgvjuM/O6w==",
+      "path": "guna.ui2.winforms/2.0.4.6",
+      "hashPath": "guna.ui2.winforms.2.0.4.6.nupkg.sha512"
+    },
+    "MicroCom.Runtime/0.11.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MEnrZ3UIiH40hjzMDsxrTyi8dtqB5ziv3iBeeU4bXsL/7NLSal9F1lZKpK+tfBRnUoDSdtcW3KufE4yhATOMCA==",
+      "path": "microcom.runtime/0.11.0",
+      "hashPath": "microcom.runtime.0.11.0.nupkg.sha512"
+    },
+    "System.CodeDom/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GLltyqEsE5/3IE+zYRP5sNa1l44qKl9v+bfdMcwg+M9qnQf47wK3H0SUR/T+3N4JEQXF3vV4CSuuo0rsg+nq2A==",
+      "path": "system.codedom/7.0.0",
+      "hashPath": "system.codedom.7.0.0.nupkg.sha512"
+    },
+    "System.ComponentModel.Annotations/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UxYQ3FGUOtzJ7LfSdnYSFd7+oEv6M8NgUatatIN2HxNtDdlcvFAf+VIq4Of9cDMJEJC0aSRv/x898RYhB4Yppg==",
+      "path": "system.componentmodel.annotations/4.5.0",
+      "hashPath": "system.componentmodel.annotations.4.5.0.nupkg.sha512"
+    },
+    "System.Management/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-A4jed4QUviDOm7fJNKAJObEAEkEUXmkGL/w0iyCYTzrl1rezTj8LGFHfsVst4Vb9JwFcTpboiDrvdST48avBpw==",
+      "path": "system.management/7.0.0",
+      "hashPath": "system.management.7.0.0.nupkg.sha512"
+    }
+  }
+}
