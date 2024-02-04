@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "yk32ZfondYkCHJGVSXyg8zz2PTs6o/yjRCA7nKVQ7xfQApdqdZulVHgcWgcOTV2iqclLbKbqKefggBbBa27+yw==",
+  "dgSpecHash": "w33VI7BIeb9DopCvjCxmpc/dQkRab02bd3L2xBDQpyrb7pqi9oJ5KWEWYo34Qu1A9i6dsbzMU+o10RUOIKtsUg==",
   "success": true,
   "projectFilePath": "C:\\Users\\alexj\\source\\repos\\OnTap\\OnTap\\OnTap.vbproj",
   "expectedPackageFiles": [
@@ -9,6 +9,8 @@
     "C:\\Users\\alexj\\.nuget\\packages\\avalonia.remote.protocol\\11.0.7\\avalonia.remote.protocol.11.0.7.nupkg.sha512",
     "C:\\Users\\alexj\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.6\\guna.ui2.winforms.2.0.4.6.nupkg.sha512",
     "C:\\Users\\alexj\\.nuget\\packages\\microcom.runtime\\0.11.0\\microcom.runtime.0.11.0.nupkg.sha512",
+    "C:\\Users\\alexj\\.nuget\\packages\\syncfusion.licensing\\24.1.47\\syncfusion.licensing.24.1.47.nupkg.sha512",
+    "C:\\Users\\alexj\\.nuget\\packages\\syncfusion.shared.wpf\\24.1.47\\syncfusion.shared.wpf.24.1.47.nupkg.sha512",
     "C:\\Users\\alexj\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
     "C:\\Users\\alexj\\.nuget\\packages\\system.componentmodel.annotations\\4.5.0\\system.componentmodel.annotations.4.5.0.nupkg.sha512",
     "C:\\Users\\alexj\\.nuget\\packages\\system.management\\7.0.0\\system.management.7.0.0.nupkg.sha512"

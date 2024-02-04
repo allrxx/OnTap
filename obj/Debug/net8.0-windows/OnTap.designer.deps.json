@@ -84,6 +84,25 @@
           }
         }
       },
+      "Syncfusion.Licensing/24.1.47": {
+        "runtime": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "24.1.47.0",
+            "fileVersion": "24.1.47.0"
+          }
+        }
+      },
+      "Syncfusion.Shared.WPF/24.1.47": {
+        "dependencies": {
+          "Syncfusion.Licensing": "24.1.47"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/Syncfusion.Shared.WPF.dll": {
+            "assemblyVersion": "24.1.47.0",
+            "fileVersion": "24.1.47.0"
+          }
+        }
+      },
       "System.CodeDom/7.0.0": {
         "runtime": {
           "lib/net7.0/System.CodeDom.dll": {
@@ -149,6 +168,20 @@
       "sha512": "sha512-MEnrZ3UIiH40hjzMDsxrTyi8dtqB5ziv3iBeeU4bXsL/7NLSal9F1lZKpK+tfBRnUoDSdtcW3KufE4yhATOMCA==",
       "path": "microcom.runtime/0.11.0",
       "hashPath": "microcom.runtime.0.11.0.nupkg.sha512"
+    },
+    "Syncfusion.Licensing/24.1.47": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-umuqKtsQnq//31JrKfQBpPofNZC1pYF5wwcNSf+mCIrf9BC+AP4UgYUtb2ntTlLaDjZsDNSsZdV22QxtNBE63w==",
+      "path": "syncfusion.licensing/24.1.47",
+      "hashPath": "syncfusion.licensing.24.1.47.nupkg.sha512"
+    },
+    "Syncfusion.Shared.WPF/24.1.47": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-58il67XMcN9uYghOuXEle/OQL3y/6sV84XmpwQSpbpDwBFiFart0AluGPTp8yXlTJzmgFehVp3TlGxrVdB0VTw==",
+      "path": "syncfusion.shared.wpf/24.1.47",
+      "hashPath": "syncfusion.shared.wpf.24.1.47.nupkg.sha512"
     },
     "System.CodeDom/7.0.0": {
       "type": "package",
