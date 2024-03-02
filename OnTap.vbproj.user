@@ -7,7 +7,22 @@
     <Compile Update="Form2.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="UserControl1.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="UserControl2.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserControl3.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserControl4.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserControl5.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserControl6.vb">
       <SubType>UserControl</SubType>
     </Compile>
   </ItemGroup>

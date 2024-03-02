@@ -34,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -44,6 +49,10 @@
               "target": "Package",
               "version": "[11.0.7, )"
             },
+            "GrapeCity.DataVisualization.Chart": {
+              "target": "Package",
+              "version": "[0.4.136, )"
+            },
             "Guna.UI2.WinForms": {
               "target": "Package",
               "version": "[2.0.4.6, )"
@@ -51,6 +60,14 @@
             "Syncfusion.Shared.WPF": {
               "target": "Package",
               "version": "[24.1.47, )"
+            },
+            "System.Data.OleDb": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
             }
           },
           "imports": [
@@ -72,7 +89,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

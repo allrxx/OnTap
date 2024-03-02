@@ -1,19 +1,35 @@
 {
   "version": 2,
-  "dgSpecHash": "w33VI7BIeb9DopCvjCxmpc/dQkRab02bd3L2xBDQpyrb7pqi9oJ5KWEWYo34Qu1A9i6dsbzMU+o10RUOIKtsUg==",
+  "dgSpecHash": "JjUkdQ7C+oRLENSTD7UMbFP7iG4cH3/6fZ6wlfvFKkdRRr5jxXN2WhueOejS+p3Xg6kOCqElcmn5VtrnRmaaIg==",
   "success": true,
   "projectFilePath": "C:\\Users\\alexj\\source\\repos\\OnTap\\OnTap\\OnTap.vbproj",
   "expectedPackageFiles": [
     "C:\\Users\\alexj\\.nuget\\packages\\avalonia\\11.0.7\\avalonia.11.0.7.nupkg.sha512",
     "C:\\Users\\alexj\\.nuget\\packages\\avalonia.buildservices\\0.0.29\\avalonia.buildservices.0.0.29.nupkg.sha512",
     "C:\\Users\\alexj\\.nuget\\packages\\avalonia.remote.protocol\\11.0.7\\avalonia.remote.protocol.11.0.7.nupkg.sha512",
+    "C:\\Users\\alexj\\.nuget\\packages\\grapecity.datavisualization.chart\\0.4.136\\grapecity.datavisualization.chart.0.4.136.nupkg.sha512",
     "C:\\Users\\alexj\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.6\\guna.ui2.winforms.2.0.4.6.nupkg.sha512",
     "C:\\Users\\alexj\\.nuget\\packages\\microcom.runtime\\0.11.0\\microcom.runtime.0.11.0.nupkg.sha512",
+    "C:\\Users\\alexj\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\alexj\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\alexj\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
+    "C:\\Users\\alexj\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\alexj\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\alexj\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\alexj\\.nuget\\packages\\syncfusion.licensing\\24.1.47\\syncfusion.licensing.24.1.47.nupkg.sha512",
     "C:\\Users\\alexj\\.nuget\\packages\\syncfusion.shared.wpf\\24.1.47\\syncfusion.shared.wpf.24.1.47.nupkg.sha512",
     "C:\\Users\\alexj\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
     "C:\\Users\\alexj\\.nuget\\packages\\system.componentmodel.annotations\\4.5.0\\system.componentmodel.annotations.4.5.0.nupkg.sha512",
-    "C:\\Users\\alexj\\.nuget\\packages\\system.management\\7.0.0\\system.management.7.0.0.nupkg.sha512"
+    "C:\\Users\\alexj\\.nuget\\packages\\system.configuration.configurationmanager\\8.0.0\\system.configuration.configurationmanager.8.0.0.nupkg.sha512",
+    "C:\\Users\\alexj\\.nuget\\packages\\system.data.oledb\\8.0.0\\system.data.oledb.8.0.0.nupkg.sha512",
+    "C:\\Users\\alexj\\.nuget\\packages\\system.data.sqlclient\\4.8.6\\system.data.sqlclient.4.8.6.nupkg.sha512",
+    "C:\\Users\\alexj\\.nuget\\packages\\system.diagnostics.eventlog\\8.0.0\\system.diagnostics.eventlog.8.0.0.nupkg.sha512",
+    "C:\\Users\\alexj\\.nuget\\packages\\system.diagnostics.performancecounter\\8.0.0\\system.diagnostics.performancecounter.8.0.0.nupkg.sha512",
+    "C:\\Users\\alexj\\.nuget\\packages\\system.management\\7.0.0\\system.management.7.0.0.nupkg.sha512",
+    "C:\\Users\\alexj\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\alexj\\.nuget\\packages\\system.security.cryptography.protecteddata\\8.0.0\\system.security.cryptography.protecteddata.8.0.0.nupkg.sha512",
+    "C:\\Users\\alexj\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
+    "C:\\Users\\alexj\\.nuget\\packages\\system.text.json\\5.0.2\\system.text.json.5.0.2.nupkg.sha512"
   ],
   "logs": []
 }
