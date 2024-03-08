@@ -4,7 +4,7 @@ Imports System.Security.Cryptography
 
 Public Class Form1
 
-    Dim connectionString As String = "Data Source=ALLRX\SQLEXPRESS;Initial Catalog=ontap;Integrated Security=True;Encrypt=False"
+    Dim connectionString As String = "Data Source=ALLRX\SQLEXPRESS;Initial  Catalog=ontap;Integrated Security=True;Encrypt=False"
 
     ' Variable to store the username of the logged-in user
     Public Shared loggedInUsername As String
