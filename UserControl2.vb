@@ -5,7 +5,7 @@ Public Class UserControl2
 
     Dim connectionString As String = "Data Source=ALLRX\SQLEXPRESS;Initial Catalog=ontap;Integrated Security=True;Encrypt=False"
 
-    Private Sub Guna2GroupBox3_Click(sender As Object, e As EventArgs) Handles Guna2GroupBox3.Click
+    Private Sub Guna2GradientButton1_Click(sender As Object, e As EventArgs) Handles Guna2GradientButton1.Click
         ' Retrieve details from the user control fields
         Dim username As String = Guna2TextBox1.Text
         Dim firstname As String = Guna2TextBox2.Text

@@ -8,12 +8,9 @@ Public Class Form1
 
     ' Variable to store the username of the logged-in user
     Public Shared loggedInUsername As String
+
     ' Variable to store the role of the logged-in user
     Public Shared loggedInUserRole As String
-
-    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        ' Form load logic (if any)
-    End Sub
 
     Private Sub Guna2GradientButton1_Click(sender As Object, e As EventArgs) Handles Guna2GradientButton1.Click
         Dim username As String = Guna2TextBox2.Text
@@ -26,30 +23,25 @@ Public Class Form1
             loggedInUsername = username
             loggedInUserRole = role
 
-            ' Open the new form or perform other actions based on the role
-            Dim form2 As New Form2()
-            form2.Show()
-            Me.Hide()
-        Else
-            MessageBox.Show("Invalid credentials")
+            OpenFormBasedOnRole(role)
         End If
     End Sub
 
     ' Function to authenticate the user and retrieve the role
-    Private Function AuthenticateUser(username As String, password As String) As String
-        Dim role As String = ""
+    Private Function AuthenticateUser(username As String, password As String) As Integer
+        Dim role As Integer = 0
         Dim query As String = "SELECT role FROM [User] WHERE username=@username AND password=@password"
 
         Using connection As New SqlConnection(connectionString)
-            Using Command As New SqlCommand(query, connection)
-                Command.Parameters.AddWithValue("@username", username)
-                Command.Parameters.AddWithValue("@password", password)
+            Using command As New SqlCommand(query, connection)
+                command.Parameters.AddWithValue("@username", username)
+                command.Parameters.AddWithValue("@password", password)
                 connection.Open()
-                Dim result As Object = Command.ExecuteScalar()
+                Dim result As Object = command.ExecuteScalar()
 
                 ' If a role is retrieved, assign it to the role variable
                 If result IsNot Nothing Then
-                    role = Convert.ToString(result)
+                    role = Convert.ToInt32(result)
                 End If
             End Using
         End Using
@@ -58,7 +50,25 @@ Public Class Form1
         Return role
     End Function
 
+
+
     Private Sub Guna2PictureBox2_Click(sender As Object, e As EventArgs) Handles Guna2PictureBox2.Click
         Application.Exit()
     End Sub
+
+    Private Sub OpenFormBasedOnRole(role As Int32)
+        Select Case role
+            Case "2"
+                Dim adminForm As New Form3()
+                adminForm.Show()
+                Me.Hide()
+            Case "1"
+                Dim studentForm As New Form2()
+                studentForm.Show()
+                Me.Hide()
+            Case Else
+                MessageBox.Show("Invalid user role")
+        End Select
+    End Sub
+
 End Class

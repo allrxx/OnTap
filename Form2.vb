@@ -20,16 +20,10 @@ Public Class Form2
     End Sub
 
     Private Sub Guna2GradientButton6_Click(sender As Object, e As EventArgs) Handles Guna2GradientButton6.Click
-        If CurrentRole = "admin" Then
-            Dim StudentDashboard As New UserControl1()
-            Guna2Panel1.Controls.Clear()
-            Guna2Panel1.Controls.Add(StudentDashboard)
+        Dim StudentDashboard As New UserControl1()
+        Guna2Panel1.Controls.Clear()
+        Guna2Panel1.Controls.Add(StudentDashboard)
 
-        Else
-            Dim AdminDashBoard As New UserControl4
-            Guna2Panel1.Controls.Clear()
-            Guna2Panel1.Controls.Add(AdminDashBoard)
-        End If
     End Sub
 
     Private Sub Guna2GradientButton2_Click(sender As Object, e As EventArgs) Handles Guna2GradientButton2.Click
@@ -39,16 +33,12 @@ Public Class Form2
     End Sub
 
     Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
         ' Add UserControl2 to Guna2Panel1 only if it's not already added
         If Not Guna2Panel1.Controls.Contains(u) Then
             Guna2Panel1.Controls.Clear()
             Guna2Panel1.Controls.Add(u)
         End If
 
-        If CurrentRole = "admin" Then
-            Guna2GradientButton1.Hide()
-            Guna2GradientButton2.Hide()
-            Guna2GradientButton3.Hide()
-        End If
     End Sub
 End Class

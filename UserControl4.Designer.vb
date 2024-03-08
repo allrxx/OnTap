@@ -175,7 +175,7 @@ Partial Class UserControl4
         Label12.BackColor = Color.White
         Label12.Font = New Font("Segoe UI", 17F)
         Label12.ForeColor = SystemColors.WindowText
-        Label12.Location = New Point(22, 41)
+        Label12.Location = New Point(25, 41)
         Label12.Name = "Label12"
         Label12.Size = New Size(121, 36)
         Label12.TabIndex = 9

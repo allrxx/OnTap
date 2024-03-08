@@ -58,3 +58,5 @@ C:\Users\alexj\source\repos\OnTap\OnTap\bin\Debug\net8.0-windows\runtimes\win-x8
 C:\Users\alexj\source\repos\OnTap\OnTap\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\alexj\source\repos\OnTap\OnTap\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\alexj\source\repos\OnTap\OnTap\obj\Debug\net8.0-windows\OnTap.UserControl5.resources
+C:\Users\alexj\source\repos\OnTap\OnTap\obj\Debug\net8.0-windows\OnTap.UserControl6.resources
+C:\Users\alexj\source\repos\OnTap\OnTap\obj\Debug\net8.0-windows\OnTap.Form3.resources
