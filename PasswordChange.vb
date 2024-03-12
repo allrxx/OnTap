@@ -6,12 +6,11 @@ Public Class PasswordChange
     Dim connectionString As String = "Data Source=ALLRX\SQLEXPRESS;Initial Catalog=ontap;Integrated Security=True;Encrypt=False"
 
     Private Sub Guna2GradientButton1_Click(sender As Object, e As EventArgs) Handles Guna2GradientButton1.Click
-        Dim username As String = Guna2TextBox1.Text
         Dim password As String = Guna2TextBox2.Text
         Dim newPassword As String = Guna2TextBox3.Text
 
-        ' Check if the entered username and password match the records in the database
-        If ValidateUser(username, password) Then
+        ' Check if the entered password matches the current password for the logged-in user
+        If ValidatePassword(password) Then
             ' Update the password for the currently logged-in user
             If ChangePassword(newPassword) Then
                 MessageBox.Show("Password changed successfully.")
@@ -19,24 +18,24 @@ Public Class PasswordChange
                 MessageBox.Show("Failed to change password.")
             End If
         Else
-            MessageBox.Show("Invalid username or password.")
+            MessageBox.Show("Invalid password.")
         End If
     End Sub
 
-    Private Function ValidateUser(username As String, password As String) As Boolean
+    Private Function ValidatePassword(password As String) As Boolean
         Try
             Using connection As New SqlConnection(connectionString)
                 connection.Open()
                 Dim query As String = "SELECT COUNT(*) FROM [User] WHERE username = @username AND password = @password"
                 Using command As New SqlCommand(query, connection)
-                    command.Parameters.AddWithValue("@username", username)
+                    command.Parameters.AddWithValue("@username", CurrentUsername)
                     command.Parameters.AddWithValue("@password", password)
                     Dim count As Integer = Convert.ToInt32(command.ExecuteScalar())
                     Return count > 0
                 End Using
             End Using
         Catch ex As Exception
-            MessageBox.Show("Error validating user: " & ex.Message)
+            MessageBox.Show("Error validating password: " & ex.Message)
             Return False
         End Try
     End Function
