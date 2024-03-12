@@ -418,7 +418,7 @@ Partial Class UserControl1
         Guna2PictureBox6.CustomizableEdges = CustomizableEdges23
         Guna2PictureBox6.Image = My.Resources.Resources.icons8_student_941
         Guna2PictureBox6.ImageRotate = 0F
-        Guna2PictureBox6.Location = New Point(170, 32)
+        Guna2PictureBox6.Location = New Point(156, 32)
         Guna2PictureBox6.Name = "Guna2PictureBox6"
         Guna2PictureBox6.ShadowDecoration.CustomizableEdges = CustomizableEdges24
         Guna2PictureBox6.Size = New Size(72, 72)
@@ -432,23 +432,23 @@ Partial Class UserControl1
         Label11.BackColor = Color.White
         Label11.Font = New Font("Segoe UI", 11F)
         Label11.ForeColor = Color.RoyalBlue
-        Label11.Location = New Point(49, 77)
+        Label11.Location = New Point(21, 79)
         Label11.Name = "Label11"
-        Label11.Size = New Size(69, 23)
+        Label11.Size = New Size(112, 23)
         Label11.TabIndex = 10
-        Label11.Text = "Student"
+        Label11.Text = "TotalStudents"
         ' 
         ' Label12
         ' 
         Label12.AutoSize = True
         Label12.BackColor = Color.White
-        Label12.Font = New Font("Segoe UI", 17F)
+        Label12.Font = New Font("Segoe UI", 21F)
         Label12.ForeColor = SystemColors.WindowText
-        Label12.Location = New Point(22, 41)
+        Label12.Location = New Point(42, 37)
         Label12.Name = "Label12"
-        Label12.Size = New Size(121, 36)
+        Label12.Size = New Size(69, 42)
         Label12.TabIndex = 9
-        Label12.Text = "Add User"
+        Label12.Text = "155"
         ' 
         ' Guna2GroupBox7
         ' 

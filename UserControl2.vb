@@ -10,7 +10,7 @@ Public Class UserControl2
         Dim username As String = Guna2TextBox1.Text
         Dim firstname As String = Guna2TextBox2.Text
         Dim email As String = Guna2TextBox3.Text
-        Dim role As String = "Admin"
+        Dim role As String = "2"
         Dim password As String = Guna2TextBox4.Text
         Dim passwordmatch As String = Guna2TextBox5.Text
         Dim rollno As String = Guna2TextBox6.Text
@@ -24,7 +24,7 @@ Public Class UserControl2
                     command.Parameters.AddWithValue("@firstname", firstname)
                     command.Parameters.AddWithValue("@email", email)
                     command.Parameters.AddWithValue("@password", password)
-                    command.Parameters.AddWithValue("@Role", role)
+                    command.Parameters.AddWithValue("@role", role)
                     command.Parameters.AddWithValue("@rollno", rollno)
                     Try
                         connection.Open()

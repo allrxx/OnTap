@@ -13,12 +13,6 @@ Public Class Form2
         Application.Exit()
     End Sub
 
-    Private Sub Guna2GradientButton1_Click(sender As Object, e As EventArgs) Handles Guna2GradientButton1.Click
-        Dim AdminAccCreation As New UserControl2()
-        Guna2Panel1.Controls.Clear()
-        Guna2Panel1.Controls.Add(AdminAccCreation)
-    End Sub
-
     Private Sub Guna2GradientButton6_Click(sender As Object, e As EventArgs) Handles Guna2GradientButton6.Click
         Dim StudentDashboard As New UserControl1()
         Guna2Panel1.Controls.Clear()
@@ -34,11 +28,7 @@ Public Class Form2
 
     Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
-        ' Add UserControl2 to Guna2Panel1 only if it's not already added
-        If Not Guna2Panel1.Controls.Contains(u) Then
-            Guna2Panel1.Controls.Clear()
-            Guna2Panel1.Controls.Add(u)
-        End If
 
     End Sub
+
 End Class

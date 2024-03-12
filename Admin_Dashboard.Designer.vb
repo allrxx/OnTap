@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class StudentAccountCreation
+Partial Class AddAttendance
     Inherits System.Windows.Forms.UserControl
 
     'UserControl overrides dispose to clean up the component list.
@@ -84,7 +84,7 @@ Partial Class StudentAccountCreation
         Guna2GroupBox1.Name = "Guna2GroupBox1"
         Guna2GroupBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges16
         Guna2GroupBox1.Size = New Size(798, 455)
-        Guna2GroupBox1.TabIndex = 0
+        Guna2GroupBox1.TabIndex = 1
         Guna2GroupBox1.Text = "Guna2GroupBox1"
         ' 
         ' Label2
@@ -202,9 +202,9 @@ Partial Class StudentAccountCreation
         Label13.ForeColor = Color.Black
         Label13.Location = New Point(422, 254)
         Label13.Name = "Label13"
-        Label13.Size = New Size(127, 17)
+        Label13.Size = New Size(116, 17)
         Label13.TabIndex = 40
-        Label13.Text = "Confirm Pasword"
+        Label13.Text = "Classes Absent"
         ' 
         ' Guna2TextBox5
         ' 
@@ -221,7 +221,7 @@ Partial Class StudentAccountCreation
         Guna2TextBox5.Font = New Font("Segoe UI", 9F)
         Guna2TextBox5.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         Guna2TextBox5.IconLeftSize = New Size(25, 25)
-        Guna2TextBox5.Location = New Point(418, 274)
+        Guna2TextBox5.Location = New Point(417, 275)
         Guna2TextBox5.Name = "Guna2TextBox5"
         Guna2TextBox5.PasswordChar = ChrW(0)
         Guna2TextBox5.PlaceholderText = ""
@@ -239,9 +239,9 @@ Partial Class StudentAccountCreation
         Label12.ForeColor = Color.Black
         Label12.Location = New Point(23, 251)
         Label12.Name = "Label12"
-        Label12.Size = New Size(76, 17)
+        Label12.Size = New Size(131, 17)
         Label12.TabIndex = 38
-        Label12.Text = "Password"
+        Label12.Text = "Classes Attended"
         ' 
         ' Guna2TextBox4
         ' 
@@ -276,9 +276,9 @@ Partial Class StudentAccountCreation
         Label11.ForeColor = Color.Black
         Label11.Location = New Point(27, 174)
         Label11.Name = "Label11"
-        Label11.Size = New Size(45, 17)
+        Label11.Size = New Size(101, 17)
         Label11.TabIndex = 36
-        Label11.Text = "Email"
+        Label11.Text = "Total Classes"
         ' 
         ' Guna2TextBox3
         ' 
@@ -313,9 +313,9 @@ Partial Class StudentAccountCreation
         Label10.ForeColor = Color.Black
         Label10.Location = New Point(419, 95)
         Label10.Name = "Label10"
-        Label10.Size = New Size(82, 17)
+        Label10.Size = New Size(73, 17)
         Label10.TabIndex = 34
-        Label10.Text = "Full Name "
+        Label10.Text = "Semester"
         ' 
         ' Guna2TextBox2
         ' 
@@ -350,17 +350,17 @@ Partial Class StudentAccountCreation
         Label9.ForeColor = Color.Black
         Label9.Location = New Point(14, 20)
         Label9.Name = "Label9"
-        Label9.Size = New Size(391, 50)
+        Label9.Size = New Size(404, 50)
         Label9.TabIndex = 32
-        Label9.Text = "Create Student Account"
+        Label9.Text = "Enter Attendance Details"
         ' 
-        ' StudentAccountCreation
+        ' AddAttendance
         ' 
         AutoScaleDimensions = New SizeF(8F, 19F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(240), CByte(243), CByte(248))
         Controls.Add(Guna2GroupBox1)
-        Name = "StudentAccountCreation"
+        Name = "AddAttendance"
         Size = New Size(817, 470)
         Guna2GroupBox1.ResumeLayout(False)
         Guna2GroupBox1.PerformLayout()

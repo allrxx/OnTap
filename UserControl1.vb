@@ -31,20 +31,18 @@ Public Class UserControl1
                         ' Check if data exists
                         If reader.Read() Then
                             ' Retrieve data from the reader
-                            Dim classesAttended As Integer = Convert.ToInt32(reader("classes_attended"))
-                            Dim totalClasses As Integer = Convert.ToInt32(reader("total_classes"))
-                            Dim classesPresent As Integer = Convert.ToInt32(reader("classes_attended"))
-                            Dim semester As Integer = Convert.ToInt32(reader("semester"))
+                            Dim classesAttended As Integer = If(Not IsDBNull(reader("classes_attended")), Convert.ToInt32(reader("classes_attended")), 0)
+                            Dim totalClasses As Integer = If(Not IsDBNull(reader("total_classes")), Convert.ToInt32(reader("total_classes")), 0)
+                            Dim semester As Integer = If(Not IsDBNull(reader("semester")), Convert.ToInt32(reader("semester")), 0)
 
                             ' Update labels with retrieved data
                             Label1.Text = If(totalClasses > 0, ((classesAttended / totalClasses) * 100).ToString("0.00") & "%", "")
                             Label8.Text = classesAttended.ToString()
                             Label6.Text = totalClasses.ToString()
-                            Label4.Text = semester
-
+                            Label4.Text = semester.ToString()
 
                             ' Update progress bar with attendance percentage
-                            Guna2ProgressBar1.Value = (classesPresent / totalClasses) * 100
+                            Guna2ProgressBar1.Value = If(totalClasses > 0, (classesAttended / totalClasses) * 100, 0)
                         Else
                             ' No data found for the logged-in user
                             MessageBox.Show("No attendance data found for the logged-in user.")
@@ -57,4 +55,5 @@ Public Class UserControl1
             MessageBox.Show("Error retrieving attendance data: " & ex.Message)
         End Try
     End Sub
+
 End Class

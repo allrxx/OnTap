@@ -53,10 +53,9 @@ Partial Class Form1
         ' 
         ' LoginPage
         ' 
-        LoginPage.BorderRadius = 11
+        LoginPage.BorderRadius = 15
         LoginPage.ContainerControl = Me
-        LoginPage.DockIndicatorTransparencyValue = 0.6R
-        LoginPage.ResizeForm = False
+        LoginPage.DockIndicatorTransparencyValue = 0.25R
         LoginPage.TransparentWhileDrag = True
         ' 
         ' Guna2TextBox1
