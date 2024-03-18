@@ -59,10 +59,10 @@ Partial Class PasswordChange
         Guna2GroupBox7.CustomizableEdges = CustomizableEdges9
         Guna2GroupBox7.Font = New Font("Segoe UI", 9F)
         Guna2GroupBox7.ForeColor = Color.White
-        Guna2GroupBox7.Location = New Point(9, 10)
+        Guna2GroupBox7.Location = New Point(10, 9)
         Guna2GroupBox7.Name = "Guna2GroupBox7"
         Guna2GroupBox7.ShadowDecoration.CustomizableEdges = CustomizableEdges10
-        Guna2GroupBox7.Size = New Size(798, 450)
+        Guna2GroupBox7.Size = New Size(805, 459)
         Guna2GroupBox7.TabIndex = 46
         Guna2GroupBox7.Text = "Guna2GroupBox7"
         ' 
@@ -72,7 +72,7 @@ Partial Class PasswordChange
         Label3.BackColor = Color.White
         Label3.Font = New Font("Yu Gothic Light", 8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label3.ForeColor = SystemColors.ControlDarkDark
-        Label3.Location = New Point(231, 238)
+        Label3.Location = New Point(253, 220)
         Label3.Name = "Label3"
         Label3.Size = New Size(115, 16)
         Label3.TabIndex = 50
@@ -94,14 +94,14 @@ Partial Class PasswordChange
         Guna2TextBox3.Font = New Font("Segoe UI", 9F)
         Guna2TextBox3.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         Guna2TextBox3.IconLeftSize = New Size(25, 25)
-        Guna2TextBox3.Location = New Point(224, 262)
+        Guna2TextBox3.Location = New Point(242, 246)
         Guna2TextBox3.Name = "Guna2TextBox3"
         Guna2TextBox3.PasswordChar = ChrW(0)
         Guna2TextBox3.PlaceholderForeColor = SystemColors.ControlDark
         Guna2TextBox3.PlaceholderText = "New Password"
         Guna2TextBox3.SelectedText = ""
         Guna2TextBox3.ShadowDecoration.CustomizableEdges = CustomizableEdges2
-        Guna2TextBox3.Size = New Size(348, 45)
+        Guna2TextBox3.Size = New Size(355, 40)
         Guna2TextBox3.TabIndex = 49
         Guna2TextBox3.TextAlign = HorizontalAlignment.Center
         ' 
@@ -121,14 +121,14 @@ Partial Class PasswordChange
         Guna2TextBox2.Font = New Font("Segoe UI", 9F)
         Guna2TextBox2.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         Guna2TextBox2.IconLeftSize = New Size(25, 25)
-        Guna2TextBox2.Location = New Point(224, 190)
+        Guna2TextBox2.Location = New Point(242, 177)
         Guna2TextBox2.Name = "Guna2TextBox2"
         Guna2TextBox2.PasswordChar = ChrW(0)
         Guna2TextBox2.PlaceholderForeColor = SystemColors.ControlDark
         Guna2TextBox2.PlaceholderText = "Current Password"
         Guna2TextBox2.SelectedText = ""
         Guna2TextBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges4
-        Guna2TextBox2.Size = New Size(348, 45)
+        Guna2TextBox2.Size = New Size(355, 40)
         Guna2TextBox2.TabIndex = 48
         Guna2TextBox2.TextAlign = HorizontalAlignment.Center
         ' 
@@ -138,7 +138,7 @@ Partial Class PasswordChange
         Label2.BackColor = Color.White
         Label2.Font = New Font("Yu Gothic Light", 8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label2.ForeColor = SystemColors.ControlDarkDark
-        Label2.Location = New Point(348, 147)
+        Label2.Location = New Point(363, 138)
         Label2.Name = "Label2"
         Label2.Size = New Size(104, 16)
         Label2.TabIndex = 47
@@ -158,12 +158,12 @@ Partial Class PasswordChange
         Guna2GradientButton1.FillColor2 = Color.FromArgb(CByte(57), CByte(157), CByte(238))
         Guna2GradientButton1.Font = New Font("Segoe UI", 9F)
         Guna2GradientButton1.ForeColor = Color.White
-        Guna2GradientButton1.Location = New Point(305, 326)
+        Guna2GradientButton1.Location = New Point(298, 308)
         Guna2GradientButton1.Name = "Guna2GradientButton1"
         Guna2GradientButton1.ShadowDecoration.CustomizableEdges = CustomizableEdges6
-        Guna2GradientButton1.Size = New Size(186, 46)
+        Guna2GradientButton1.Size = New Size(247, 41)
         Guna2GradientButton1.TabIndex = 41
-        Guna2GradientButton1.Text = "Delete User"
+        Guna2GradientButton1.Text = "Ok"
         ' 
         ' Label1
         ' 
@@ -171,7 +171,7 @@ Partial Class PasswordChange
         Label1.BackColor = Color.White
         Label1.Font = New Font("Yu Gothic Medium", 18F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label1.ForeColor = Color.Black
-        Label1.Location = New Point(280, 110)
+        Label1.Location = New Point(298, 102)
         Label1.Name = "Label1"
         Label1.Size = New Size(255, 35)
         Label1.TabIndex = 44
@@ -184,21 +184,21 @@ Partial Class PasswordChange
         Guna2PictureBox1.FillColor = Color.Transparent
         Guna2PictureBox1.Image = My.Resources.Resources.make_a_logo_for_an_app_called_OnTap_removebg_preview
         Guna2PictureBox1.ImageRotate = 0F
-        Guna2PictureBox1.Location = New Point(0, -45)
+        Guna2PictureBox1.Location = New Point(0, -40)
         Guna2PictureBox1.Name = "Guna2PictureBox1"
         Guna2PictureBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges8
-        Guna2PictureBox1.Size = New Size(174, 169)
+        Guna2PictureBox1.Size = New Size(172, 163)
         Guna2PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
         Guna2PictureBox1.TabIndex = 46
         Guna2PictureBox1.TabStop = False
         ' 
         ' PasswordChange
         ' 
-        AutoScaleDimensions = New SizeF(8F, 19F)
+        AutoScaleDimensions = New SizeF(7F, 17F)
         AutoScaleMode = AutoScaleMode.Font
         Controls.Add(Guna2GroupBox7)
         Name = "PasswordChange"
-        Size = New Size(817, 470)
+        Size = New Size(823, 478)
         Guna2GroupBox7.ResumeLayout(False)
         Guna2GroupBox7.PerformLayout()
         CType(Guna2PictureBox1, ComponentModel.ISupportInitialize).EndInit()

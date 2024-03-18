@@ -56,4 +56,7 @@ Public Class UserControl1
         End Try
     End Sub
 
+    Private Sub Guna2GroupBox5_Click(sender As Object, e As EventArgs) Handles Guna2GroupBox5.Click
+
+    End Sub
 End Class

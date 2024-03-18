@@ -56,7 +56,7 @@ Partial Class UserControl5
         Label1.BackColor = Color.White
         Label1.Font = New Font("Yu Gothic Medium", 18F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label1.ForeColor = Color.Black
-        Label1.Location = New Point(318, 107)
+        Label1.Location = New Point(332, 121)
         Label1.Name = "Label1"
         Label1.Size = New Size(151, 35)
         Label1.TabIndex = 44
@@ -78,13 +78,13 @@ Partial Class UserControl5
         Guna2TextBox1.Font = New Font("Segoe UI", 9F)
         Guna2TextBox1.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         Guna2TextBox1.IconLeftSize = New Size(25, 25)
-        Guna2TextBox1.Location = New Point(215, 189)
+        Guna2TextBox1.Location = New Point(194, 197)
         Guna2TextBox1.Name = "Guna2TextBox1"
         Guna2TextBox1.PasswordChar = ChrW(0)
         Guna2TextBox1.PlaceholderText = "Username"
         Guna2TextBox1.SelectedText = ""
         Guna2TextBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges4
-        Guna2TextBox1.Size = New Size(348, 45)
+        Guna2TextBox1.Size = New Size(424, 40)
         Guna2TextBox1.TabIndex = 43
         Guna2TextBox1.TextAlign = HorizontalAlignment.Center
         ' 
@@ -102,10 +102,10 @@ Partial Class UserControl5
         Guna2GradientButton1.FillColor2 = Color.FromArgb(CByte(57), CByte(157), CByte(238))
         Guna2GradientButton1.Font = New Font("Segoe UI", 9F)
         Guna2GradientButton1.ForeColor = Color.White
-        Guna2GradientButton1.Location = New Point(313, 246)
+        Guna2GradientButton1.Location = New Point(283, 260)
         Guna2GradientButton1.Name = "Guna2GradientButton1"
         Guna2GradientButton1.ShadowDecoration.CustomizableEdges = CustomizableEdges2
-        Guna2GradientButton1.Size = New Size(156, 46)
+        Guna2GradientButton1.Size = New Size(247, 41)
         Guna2GradientButton1.TabIndex = 41
         Guna2GradientButton1.Text = "Delete User"
         ' 
@@ -115,7 +115,7 @@ Partial Class UserControl5
         Label9.BackColor = Color.White
         Label9.Font = New Font("Yu Gothic UI", 25.3018875F, FontStyle.Bold)
         Label9.ForeColor = Color.Black
-        Label9.Location = New Point(30, 31)
+        Label9.Location = New Point(26, 28)
         Label9.Name = "Label9"
         Label9.Size = New Size(0, 51)
         Label9.TabIndex = 32
@@ -133,10 +133,10 @@ Partial Class UserControl5
         Guna2GroupBox7.CustomizableEdges = CustomizableEdges7
         Guna2GroupBox7.Font = New Font("Segoe UI", 9F)
         Guna2GroupBox7.ForeColor = Color.White
-        Guna2GroupBox7.Location = New Point(16, 16)
+        Guna2GroupBox7.Location = New Point(10, 10)
         Guna2GroupBox7.Name = "Guna2GroupBox7"
         Guna2GroupBox7.ShadowDecoration.CustomizableEdges = CustomizableEdges8
-        Guna2GroupBox7.Size = New Size(787, 436)
+        Guna2GroupBox7.Size = New Size(805, 459)
         Guna2GroupBox7.TabIndex = 45
         Guna2GroupBox7.Text = "Guna2GroupBox7"
         ' 
@@ -146,7 +146,7 @@ Partial Class UserControl5
         Label2.BackColor = Color.White
         Label2.Font = New Font("Yu Gothic Light", 8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label2.ForeColor = SystemColors.ControlDarkDark
-        Label2.Location = New Point(340, 142)
+        Label2.Location = New Point(352, 158)
         Label2.Name = "Label2"
         Label2.Size = New Size(104, 16)
         Label2.TabIndex = 47
@@ -159,24 +159,24 @@ Partial Class UserControl5
         Guna2PictureBox1.FillColor = Color.Transparent
         Guna2PictureBox1.Image = My.Resources.Resources.make_a_logo_for_an_app_called_OnTap_removebg_preview
         Guna2PictureBox1.ImageRotate = 0F
-        Guna2PictureBox1.Location = New Point(0, -45)
+        Guna2PictureBox1.Location = New Point(0, -40)
         Guna2PictureBox1.Name = "Guna2PictureBox1"
         Guna2PictureBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges6
-        Guna2PictureBox1.Size = New Size(174, 169)
+        Guna2PictureBox1.Size = New Size(174, 170)
         Guna2PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
         Guna2PictureBox1.TabIndex = 46
         Guna2PictureBox1.TabStop = False
         ' 
         ' UserControl5
         ' 
-        AutoScaleDimensions = New SizeF(8F, 19F)
+        AutoScaleDimensions = New SizeF(7F, 17F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(240), CByte(243), CByte(248))
         Controls.Add(Guna2GroupBox7)
         Controls.Add(Label9)
         ForeColor = SystemColors.ControlDarkDark
         Name = "UserControl5"
-        Size = New Size(817, 470)
+        Size = New Size(823, 478)
         Guna2GroupBox7.ResumeLayout(False)
         Guna2GroupBox7.PerformLayout()
         CType(Guna2PictureBox1, ComponentModel.ISupportInitialize).EndInit()

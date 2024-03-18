@@ -73,13 +73,13 @@ Partial Class Form1
         Guna2TextBox1.IconLeft = My.Resources.Resources.Password_Icon
         Guna2TextBox1.IconLeftOffset = New Point(7, 0)
         Guna2TextBox1.IconLeftSize = New Size(25, 25)
-        Guna2TextBox1.Location = New Point(594, 252)
+        Guna2TextBox1.Location = New Point(606, 279)
         Guna2TextBox1.Name = "Guna2TextBox1"
         Guna2TextBox1.PasswordChar = ChrW(0)
         Guna2TextBox1.PlaceholderText = ""
         Guna2TextBox1.SelectedText = ""
         Guna2TextBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges12
-        Guna2TextBox1.Size = New Size(292, 45)
+        Guna2TextBox1.Size = New Size(338, 45)
         Guna2TextBox1.TabIndex = 1
         Guna2TextBox1.TextAlign = HorizontalAlignment.Center
         ' 
@@ -99,13 +99,13 @@ Partial Class Form1
         Guna2TextBox2.IconLeft = My.Resources.Resources.icons8_user_male_94
         Guna2TextBox2.IconLeftOffset = New Point(7, 0)
         Guna2TextBox2.IconLeftSize = New Size(25, 25)
-        Guna2TextBox2.Location = New Point(594, 185)
+        Guna2TextBox2.Location = New Point(606, 220)
         Guna2TextBox2.Name = "Guna2TextBox2"
         Guna2TextBox2.PasswordChar = ChrW(0)
         Guna2TextBox2.PlaceholderText = ""
         Guna2TextBox2.SelectedText = ""
         Guna2TextBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges10
-        Guna2TextBox2.Size = New Size(292, 45)
+        Guna2TextBox2.Size = New Size(338, 45)
         Guna2TextBox2.TabIndex = 2
         Guna2TextBox2.TextAlign = HorizontalAlignment.Center
         ' 
@@ -113,19 +113,19 @@ Partial Class Form1
         ' 
         Label1.AutoSize = True
         Label1.FlatStyle = FlatStyle.System
-        Label1.Font = New Font("Yu Gothic Medium", 20.3396225F, FontStyle.Bold)
-        Label1.Location = New Point(611, 132)
+        Label1.Font = New Font("Yu Gothic Medium", 23F, FontStyle.Bold)
+        Label1.Location = New Point(626, 151)
         Label1.Name = "Label1"
-        Label1.Size = New Size(268, 39)
+        Label1.Size = New Size(310, 44)
         Label1.TabIndex = 3
-        Label1.Text = "Welcome Back!!!"
+        Label1.Text = "Welcome Back !!!"
         ' 
         ' Label2
         ' 
         Label2.AutoSize = True
-        Label2.Location = New Point(660, 307)
+        Label2.Location = New Point(664, 344)
         Label2.Name = "Label2"
-        Label2.Size = New Size(104, 19)
+        Label2.Size = New Size(99, 17)
         Label2.TabIndex = 4
         Label2.Text = "Show Password"
         ' 
@@ -136,10 +136,10 @@ Partial Class Form1
         Guna2ToggleSwitch1.CheckedState.InnerBorderColor = Color.White
         Guna2ToggleSwitch1.CheckedState.InnerColor = Color.White
         Guna2ToggleSwitch1.CustomizableEdges = CustomizableEdges7
-        Guna2ToggleSwitch1.Location = New Point(611, 307)
+        Guna2ToggleSwitch1.Location = New Point(621, 344)
         Guna2ToggleSwitch1.Name = "Guna2ToggleSwitch1"
         Guna2ToggleSwitch1.ShadowDecoration.CustomizableEdges = CustomizableEdges8
-        Guna2ToggleSwitch1.Size = New Size(39, 22)
+        Guna2ToggleSwitch1.Size = New Size(34, 20)
         Guna2ToggleSwitch1.TabIndex = 5
         Guna2ToggleSwitch1.UncheckedState.BorderColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
         Guna2ToggleSwitch1.UncheckedState.FillColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
@@ -151,10 +151,10 @@ Partial Class Form1
         Guna2PictureBox1.CustomizableEdges = CustomizableEdges5
         Guna2PictureBox1.Image = My.Resources.Resources.Create_an_image_with_a_white_background_for_the___1_
         Guna2PictureBox1.ImageRotate = 0F
-        Guna2PictureBox1.Location = New Point(-3, -3)
+        Guna2PictureBox1.Location = New Point(-13, -3)
         Guna2PictureBox1.Name = "Guna2PictureBox1"
         Guna2PictureBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges6
-        Guna2PictureBox1.Size = New Size(538, 519)
+        Guna2PictureBox1.Size = New Size(568, 573)
         Guna2PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
         Guna2PictureBox1.TabIndex = 6
         Guna2PictureBox1.TabStop = False
@@ -162,10 +162,10 @@ Partial Class Form1
         ' Label3
         ' 
         Label3.AutoSize = True
-        Label3.Font = New Font("Yu Gothic UI", 21.6981125F, FontStyle.Bold)
-        Label3.Location = New Point(696, 88)
+        Label3.Font = New Font("Yu Gothic UI", 23F, FontStyle.Bold)
+        Label3.Location = New Point(723, 104)
         Label3.Name = "Label3"
-        Label3.Size = New Size(96, 45)
+        Label3.Size = New Size(101, 46)
         Label3.TabIndex = 7
         Label3.Text = "Hello"
         ' 
@@ -182,10 +182,10 @@ Partial Class Form1
         Guna2GradientButton1.FillColor2 = Color.FromArgb(CByte(57), CByte(157), CByte(238))
         Guna2GradientButton1.Font = New Font("Segoe UI", 9F)
         Guna2GradientButton1.ForeColor = Color.White
-        Guna2GradientButton1.Location = New Point(594, 353)
+        Guna2GradientButton1.Location = New Point(607, 382)
         Guna2GradientButton1.Name = "Guna2GradientButton1"
         Guna2GradientButton1.ShadowDecoration.CustomizableEdges = CustomizableEdges4
-        Guna2GradientButton1.Size = New Size(292, 46)
+        Guna2GradientButton1.Size = New Size(338, 41)
         Guna2GradientButton1.TabIndex = 8
         Guna2GradientButton1.Text = "Login"
         ' 
@@ -194,7 +194,7 @@ Partial Class Form1
         Label4.AutoSize = True
         Label4.Font = New Font("Segoe MDL2 Assets", 9F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label4.ForeColor = SystemColors.ControlDarkDark
-        Label4.Location = New Point(622, 407)
+        Label4.Location = New Point(620, 430)
         Label4.Name = "Label4"
         Label4.Size = New Size(127, 14)
         Label4.TabIndex = 9
@@ -206,7 +206,7 @@ Partial Class Form1
         Label5.FlatStyle = FlatStyle.System
         Label5.Font = New Font("Segoe MDL2 Assets", 8.830189F, FontStyle.Italic, GraphicsUnit.Point, CByte(0))
         Label5.ForeColor = SystemColors.ActiveCaptionText
-        Label5.Location = New Point(749, 408)
+        Label5.Location = New Point(747, 431)
         Label5.Name = "Label5"
         Label5.Size = New Size(116, 13)
         Label5.TabIndex = 10
@@ -218,20 +218,20 @@ Partial Class Form1
         Guna2PictureBox2.CustomizableEdges = CustomizableEdges1
         Guna2PictureBox2.Image = My.Resources.Resources.icons8_close_48
         Guna2PictureBox2.ImageRotate = 0F
-        Guna2PictureBox2.Location = New Point(900, 8)
+        Guna2PictureBox2.Location = New Point(951, 12)
         Guna2PictureBox2.Name = "Guna2PictureBox2"
         Guna2PictureBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges2
-        Guna2PictureBox2.Size = New Size(32, 32)
+        Guna2PictureBox2.Size = New Size(30, 30)
         Guna2PictureBox2.SizeMode = PictureBoxSizeMode.StretchImage
         Guna2PictureBox2.TabIndex = 11
         Guna2PictureBox2.TabStop = False
         ' 
         ' Form1
         ' 
-        AutoScaleDimensions = New SizeF(8F, 19F)
+        AutoScaleDimensions = New SizeF(7F, 17F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(254), CByte(254), CByte(254))
-        ClientSize = New Size(943, 519)
+        ClientSize = New Size(994, 568)
         Controls.Add(Guna2PictureBox2)
         Controls.Add(Label5)
         Controls.Add(Label4)

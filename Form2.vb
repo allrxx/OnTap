@@ -31,4 +31,9 @@ Public Class Form2
 
     End Sub
 
+    Private Sub Guna2GradientButton4_Click(sender As Object, e As EventArgs) Handles Guna2GradientButton4.Click
+        Dim StudentPassChange As New PasswordChange()
+        Guna2Panel1.Controls.Clear()
+        Guna2Panel1.Controls.Add(StudentPassChange)
+    End Sub
 End Class

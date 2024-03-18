@@ -79,4 +79,8 @@ Public Class UserControl5
     Private Sub Guna2GroupBox7_Click(sender As Object, e As EventArgs) Handles Guna2GroupBox7.Click
 
     End Sub
+
+    Private Sub UserControl5_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class
