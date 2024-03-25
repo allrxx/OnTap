@@ -60,7 +60,7 @@ Partial Class UserControl2
         ' 
         ' Guna2GroupBox3
         ' 
-        Guna2GroupBox3.BackColor = Color.White
+        Guna2GroupBox3.BackColor = Color.FromArgb(CByte(240), CByte(243), CByte(248))
         Guna2GroupBox3.BorderColor = Color.FromArgb(CByte(240), CByte(243), CByte(248))
         Guna2GroupBox3.BorderRadius = 13
         Guna2GroupBox3.Controls.Add(Label2)
@@ -87,7 +87,7 @@ Partial Class UserControl2
         Guna2GroupBox3.Location = New Point(9, 9)
         Guna2GroupBox3.Name = "Guna2GroupBox3"
         Guna2GroupBox3.ShadowDecoration.CustomizableEdges = CustomizableEdges16
-        Guna2GroupBox3.Size = New Size(805, 459)
+        Guna2GroupBox3.Size = New Size(800, 459)
         Guna2GroupBox3.TabIndex = 19
         ' 
         ' Label2

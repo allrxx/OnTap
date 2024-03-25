@@ -83,7 +83,7 @@ Partial Class AddAttendance
         Guna2GroupBox1.Location = New Point(9, 9)
         Guna2GroupBox1.Name = "Guna2GroupBox1"
         Guna2GroupBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges16
-        Guna2GroupBox1.Size = New Size(805, 459)
+        Guna2GroupBox1.Size = New Size(800, 459)
         Guna2GroupBox1.TabIndex = 1
         Guna2GroupBox1.Text = "Guna2GroupBox1"
         ' 

@@ -136,7 +136,7 @@ Partial Class UserControl5
         Guna2GroupBox7.Location = New Point(10, 10)
         Guna2GroupBox7.Name = "Guna2GroupBox7"
         Guna2GroupBox7.ShadowDecoration.CustomizableEdges = CustomizableEdges8
-        Guna2GroupBox7.Size = New Size(805, 459)
+        Guna2GroupBox7.Size = New Size(800, 459)
         Guna2GroupBox7.TabIndex = 45
         Guna2GroupBox7.Text = "Guna2GroupBox7"
         ' 

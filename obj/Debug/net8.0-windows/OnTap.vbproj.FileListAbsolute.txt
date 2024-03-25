@@ -62,3 +62,4 @@ C:\Users\alexj\source\repos\OnTap\OnTap\obj\Debug\net8.0-windows\OnTap.Form3.res
 C:\Users\alexj\source\repos\OnTap\OnTap\obj\Debug\net8.0-windows\OnTap.StudentAccountCreation.resources
 C:\Users\alexj\source\repos\OnTap\OnTap\obj\Debug\net8.0-windows\OnTap.AddAttendance.resources
 C:\Users\alexj\source\repos\OnTap\OnTap\obj\Debug\net8.0-windows\OnTap.PasswordChange.resources
+C:\Users\alexj\source\repos\OnTap\OnTap\obj\Debug\net8.0-windows\OnTap.UserControl7.resources

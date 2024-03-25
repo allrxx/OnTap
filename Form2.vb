@@ -36,4 +36,10 @@ Public Class Form2
         Guna2Panel1.Controls.Clear()
         Guna2Panel1.Controls.Add(StudentPassChange)
     End Sub
+
+    Private Sub Guna2GradientButton3_Click(sender As Object, e As EventArgs) Handles Guna2GradientButton3.Click
+        Dim Bunkmate As New UserControl7()
+        Guna2Panel1.Controls.Clear()
+        Guna2Panel1.Controls.Add(Bunkmate)
+    End Sub
 End Class

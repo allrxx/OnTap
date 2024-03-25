@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("OnTap"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5ac1cd5fd3be59b74b909816b99d4066806ac37f"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c3d9424dc7aec2a6780ab6578cbfdd53e364ee0"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("OnTap"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("OnTap"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _

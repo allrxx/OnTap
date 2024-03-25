@@ -83,7 +83,7 @@ Partial Class StudentAccountCreation
         Guna2GroupBox1.Location = New Point(10, 10)
         Guna2GroupBox1.Name = "Guna2GroupBox1"
         Guna2GroupBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges16
-        Guna2GroupBox1.Size = New Size(805, 459)
+        Guna2GroupBox1.Size = New Size(800, 459)
         Guna2GroupBox1.TabIndex = 0
         Guna2GroupBox1.Text = "Guna2GroupBox1"
         ' 

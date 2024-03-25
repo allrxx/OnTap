@@ -59,10 +59,10 @@ Partial Class PasswordChange
         Guna2GroupBox7.CustomizableEdges = CustomizableEdges9
         Guna2GroupBox7.Font = New Font("Segoe UI", 9F)
         Guna2GroupBox7.ForeColor = Color.White
-        Guna2GroupBox7.Location = New Point(10, 9)
+        Guna2GroupBox7.Location = New Point(9, 9)
         Guna2GroupBox7.Name = "Guna2GroupBox7"
         Guna2GroupBox7.ShadowDecoration.CustomizableEdges = CustomizableEdges10
-        Guna2GroupBox7.Size = New Size(805, 459)
+        Guna2GroupBox7.Size = New Size(802, 459)
         Guna2GroupBox7.TabIndex = 46
         Guna2GroupBox7.Text = "Guna2GroupBox7"
         ' 
@@ -158,7 +158,7 @@ Partial Class PasswordChange
         Guna2GradientButton1.FillColor2 = Color.FromArgb(CByte(57), CByte(157), CByte(238))
         Guna2GradientButton1.Font = New Font("Segoe UI", 9F)
         Guna2GradientButton1.ForeColor = Color.White
-        Guna2GradientButton1.Location = New Point(298, 308)
+        Guna2GradientButton1.Location = New Point(298, 304)
         Guna2GradientButton1.Name = "Guna2GradientButton1"
         Guna2GradientButton1.ShadowDecoration.CustomizableEdges = CustomizableEdges6
         Guna2GradientButton1.Size = New Size(247, 41)

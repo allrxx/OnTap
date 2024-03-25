@@ -9,14 +9,14 @@ Public Class UserControl1
         RetrieveAttendanceData()
     End Sub
 
-    Private Sub RetrieveAttendanceData()
+    Public Sub RetrieveAttendanceData()
         Dim yourLoggedInUsername As String = Form1.loggedInUsername
 
         Try
             ' Connect to the database
             Using connection As New SqlConnection(connectionString)
                 ' SQL query to retrieve attendance data for the logged-in user
-                Dim query As String = "SELECT classes_attended, total_classes, classes_attended, semester FROM attendance WHERE username = @username"
+                Dim query As String = "SELECT classes_attended, total_classes, semester FROM attendance WHERE username = @username"
 
                 ' Create a command with the query and connection
                 Using command As New SqlCommand(query, connection)
@@ -33,7 +33,7 @@ Public Class UserControl1
                             ' Retrieve data from the reader
                             Dim classesAttended As Integer = If(Not IsDBNull(reader("classes_attended")), Convert.ToInt32(reader("classes_attended")), 0)
                             Dim totalClasses As Integer = If(Not IsDBNull(reader("total_classes")), Convert.ToInt32(reader("total_classes")), 0)
-                            Dim semester As Integer = If(Not IsDBNull(reader("semester")), Convert.ToInt32(reader("semester")), 0)
+                            Dim semester As Integer = If(Not IsDBNull(reader("semester")), Convert.ToInt32(reader("semester")), 1)
 
                             ' Update labels with retrieved data
                             Label1.Text = If(totalClasses > 0, ((classesAttended / totalClasses) * 100).ToString("0.00") & "%", "")
@@ -56,7 +56,4 @@ Public Class UserControl1
         End Try
     End Sub
 
-    Private Sub Guna2GroupBox5_Click(sender As Object, e As EventArgs) Handles Guna2GroupBox5.Click
-
-    End Sub
 End Class

@@ -86,10 +86,10 @@ Partial Class UserControl4
         Guna2GroupBox7.CustomizableEdges = CustomizableEdges5
         Guna2GroupBox7.Font = New Font("Segoe UI", 9F)
         Guna2GroupBox7.ForeColor = Color.White
-        Guna2GroupBox7.Location = New Point(282, 14)
+        Guna2GroupBox7.Location = New Point(279, 13)
         Guna2GroupBox7.Name = "Guna2GroupBox7"
         Guna2GroupBox7.ShadowDecoration.CustomizableEdges = CustomizableEdges6
-        Guna2GroupBox7.Size = New Size(532, 148)
+        Guna2GroupBox7.Size = New Size(530, 148)
         Guna2GroupBox7.TabIndex = 17
         Guna2GroupBox7.Text = "Guna2GroupBox7"
         ' 
@@ -148,12 +148,12 @@ Partial Class UserControl4
         Guna2ProgressBar1.BackColor = Color.White
         Guna2ProgressBar1.BorderRadius = 15
         Guna2ProgressBar1.CustomizableEdges = CustomizableEdges3
-        Guna2ProgressBar1.Location = New Point(133, 95)
+        Guna2ProgressBar1.Location = New Point(133, 99)
         Guna2ProgressBar1.Name = "Guna2ProgressBar1"
         Guna2ProgressBar1.ProgressColor = Color.Red
         Guna2ProgressBar1.ProgressColor2 = Color.FromArgb(CByte(57), CByte(157), CByte(238))
         Guna2ProgressBar1.ShadowDecoration.CustomizableEdges = CustomizableEdges4
-        Guna2ProgressBar1.Size = New Size(382, 33)
+        Guna2ProgressBar1.Size = New Size(380, 30)
         Guna2ProgressBar1.TabIndex = 10
         Guna2ProgressBar1.Text = "Guna2ProgressBar1"
         Guna2ProgressBar1.TextRenderingHint = Drawing.Text.TextRenderingHint.SystemDefault
@@ -165,7 +165,7 @@ Partial Class UserControl4
         Guna2PictureBox7.CustomizableEdges = CustomizableEdges7
         Guna2PictureBox7.Image = My.Resources.Resources.icons8_calculator_94
         Guna2PictureBox7.ImageRotate = 0F
-        Guna2PictureBox7.Location = New Point(84, 43)
+        Guna2PictureBox7.Location = New Point(82, 43)
         Guna2PictureBox7.Name = "Guna2PictureBox7"
         Guna2PictureBox7.ShadowDecoration.CustomizableEdges = CustomizableEdges8
         Guna2PictureBox7.Size = New Size(93, 90)
@@ -179,7 +179,7 @@ Partial Class UserControl4
         Label13.BackColor = Color.White
         Label13.Font = New Font("Segoe UI", 13F)
         Label13.ForeColor = Color.RoyalBlue
-        Label13.Location = New Point(56, 188)
+        Label13.Location = New Point(54, 188)
         Label13.Name = "Label13"
         Label13.Size = New Size(152, 28)
         Label13.TabIndex = 10
@@ -191,7 +191,7 @@ Partial Class UserControl4
         Label14.BackColor = Color.White
         Label14.Font = New Font("Segoe UI", 21F)
         Label14.ForeColor = SystemColors.WindowText
-        Label14.Location = New Point(93, 149)
+        Label14.Location = New Point(91, 149)
         Label14.Name = "Label14"
         Label14.Size = New Size(77, 42)
         Label14.TabIndex = 9
@@ -211,7 +211,7 @@ Partial Class UserControl4
         Guna2GroupBox6.Location = New Point(11, 13)
         Guna2GroupBox6.Name = "Guna2GroupBox6"
         Guna2GroupBox6.ShadowDecoration.CustomizableEdges = CustomizableEdges12
-        Guna2GroupBox6.Size = New Size(261, 148)
+        Guna2GroupBox6.Size = New Size(255, 148)
         Guna2GroupBox6.TabIndex = 16
         Guna2GroupBox6.Text = "Guna2GroupBox6"
         ' 
@@ -221,7 +221,7 @@ Partial Class UserControl4
         Label6.BackColor = Color.White
         Label6.Font = New Font("Segoe UI", 13F)
         Label6.ForeColor = Color.RoyalBlue
-        Label6.Location = New Point(23, 79)
+        Label6.Location = New Point(19, 78)
         Label6.Name = "Label6"
         Label6.Size = New Size(135, 28)
         Label6.TabIndex = 13
@@ -233,7 +233,7 @@ Partial Class UserControl4
         Label12.BackColor = Color.White
         Label12.Font = New Font("Segoe UI", 21F)
         Label12.ForeColor = SystemColors.WindowText
-        Label12.Location = New Point(67, 38)
+        Label12.Location = New Point(63, 37)
         Label12.Name = "Label12"
         Label12.Size = New Size(35, 42)
         Label12.TabIndex = 12
@@ -245,7 +245,7 @@ Partial Class UserControl4
         Guna2PictureBox6.CustomizableEdges = CustomizableEdges9
         Guna2PictureBox6.Image = My.Resources.Resources.icons8_student_941
         Guna2PictureBox6.ImageRotate = 0F
-        Guna2PictureBox6.Location = New Point(167, 38)
+        Guna2PictureBox6.Location = New Point(163, 37)
         Guna2PictureBox6.Name = "Guna2PictureBox6"
         Guna2PictureBox6.ShadowDecoration.CustomizableEdges = CustomizableEdges10
         Guna2PictureBox6.Size = New Size(72, 72)
@@ -264,10 +264,10 @@ Partial Class UserControl4
         Guna2GroupBox1.CustomizableEdges = CustomizableEdges13
         Guna2GroupBox1.Font = New Font("Segoe UI", 9F)
         Guna2GroupBox1.ForeColor = Color.White
-        Guna2GroupBox1.Location = New Point(11, 172)
+        Guna2GroupBox1.Location = New Point(11, 174)
         Guna2GroupBox1.Name = "Guna2GroupBox1"
         Guna2GroupBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges14
-        Guna2GroupBox1.Size = New Size(261, 293)
+        Guna2GroupBox1.Size = New Size(255, 293)
         Guna2GroupBox1.TabIndex = 18
         Guna2GroupBox1.Text = "Guna2GroupBox1"
         ' 
@@ -282,10 +282,10 @@ Partial Class UserControl4
         Guna2GroupBox2.CustomizableEdges = CustomizableEdges17
         Guna2GroupBox2.Font = New Font("Segoe UI", 9F)
         Guna2GroupBox2.ForeColor = Color.White
-        Guna2GroupBox2.Location = New Point(281, 172)
+        Guna2GroupBox2.Location = New Point(280, 174)
         Guna2GroupBox2.Name = "Guna2GroupBox2"
         Guna2GroupBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges18
-        Guna2GroupBox2.Size = New Size(261, 293)
+        Guna2GroupBox2.Size = New Size(258, 293)
         Guna2GroupBox2.TabIndex = 19
         Guna2GroupBox2.Text = "Guna2GroupBox2"
         ' 
@@ -295,7 +295,7 @@ Partial Class UserControl4
         Label3.BackColor = Color.White
         Label3.Font = New Font("Segoe UI", 13F)
         Label3.ForeColor = Color.RoyalBlue
-        Label3.Location = New Point(106, 188)
+        Label3.Location = New Point(101, 188)
         Label3.Name = "Label3"
         Label3.Size = New Size(51, 28)
         Label3.TabIndex = 12
@@ -307,7 +307,7 @@ Partial Class UserControl4
         Guna2PictureBox2.CustomizableEdges = CustomizableEdges15
         Guna2PictureBox2.Image = My.Resources.Resources.icons8_delete_94
         Guna2PictureBox2.ImageRotate = 0F
-        Guna2PictureBox2.Location = New Point(87, 43)
+        Guna2PictureBox2.Location = New Point(82, 43)
         Guna2PictureBox2.Name = "Guna2PictureBox2"
         Guna2PictureBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges16
         Guna2PictureBox2.Size = New Size(93, 90)
@@ -321,7 +321,7 @@ Partial Class UserControl4
         Label4.BackColor = Color.White
         Label4.Font = New Font("Segoe UI", 20F)
         Label4.ForeColor = SystemColors.WindowText
-        Label4.Location = New Point(82, 149)
+        Label4.Location = New Point(77, 149)
         Label4.Name = "Label4"
         Label4.Size = New Size(104, 41)
         Label4.TabIndex = 12
@@ -336,10 +336,10 @@ Partial Class UserControl4
         Guna2GroupBox3.CustomizableEdges = CustomizableEdges19
         Guna2GroupBox3.Font = New Font("Segoe UI", 9F)
         Guna2GroupBox3.ForeColor = Color.White
-        Guna2GroupBox3.Location = New Point(552, 172)
+        Guna2GroupBox3.Location = New Point(551, 174)
         Guna2GroupBox3.Name = "Guna2GroupBox3"
         Guna2GroupBox3.ShadowDecoration.CustomizableEdges = CustomizableEdges20
-        Guna2GroupBox3.Size = New Size(261, 293)
+        Guna2GroupBox3.Size = New Size(258, 293)
         Guna2GroupBox3.TabIndex = 20
         Guna2GroupBox3.Text = "Guna2GroupBox3"
         ' 
