@@ -9,8 +9,6 @@
 <p align="center">
   <img src="https://github.com/user-attachments/assets/9042df5d-edd2-498b-8b5c-7ba36ce61169" width="22%" alt="Login Interface" />
   
-  <img src="https://github.com/user-attachments/assets/b5c9b078-c051-42be-ba2a-0e9906c317c3" width="22%" alt="Admin Dashboard" />
-  
   <img src="https://github.com/user-attachments/assets/3ebda103-3ae3-4f31-ade0-4f7c9a2a5570" width="22%" alt="Admin Stats" />
   
   <img src="https://github.com/user-attachments/assets/de8afb27-0913-48f6-8824-d70573b48a13" width="22%" alt="Student Dashboard" />
